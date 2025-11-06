@@ -15,3 +15,6 @@ create table Contato(
     observacao varchar(255),
     FOREIGN KEY (cliente_id) REFERENCES Cliente(id)
 );
+
+ALTER TABLE Cliente 
+CHANGE COLUMN data_nasc data_nascimento DATE NOT NULL;
