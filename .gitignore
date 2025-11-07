@@ -1,0 +1,26 @@
+# --- Arquivos de Sistema Operacional ---
+.DS_Store
+Thumbs.db
+
+# --- Arquivos do IntelliJ ---
+# Ignora a pasta .idea no diretório raiz
+/.idea/
+# Ignora arquivos .iml que podem ser criados
+*.iml
+
+# --- Arquivos do Back-end (Java/Maven) ---
+# Ignora a pasta de compilação 'target' do Maven
+backend/target/
+# Ignora arquivos de log
+*.log
+
+# --- Arquivos do Front-end (Node.js/npm) ---
+# Ignora a pasta de dependências (MUITO IMPORTANTE)
+frontend/node_modules/
+# Ignora logs de erro do npm
+frontend/npm-debug.log*
+# Ignora arquivos .env (que guardam senhas/chaves)
+frontend/.env
+# Ignora pastas de build do front-end (se você usar React/Vue/etc.)
+frontend/dist/
+frontend/build/
